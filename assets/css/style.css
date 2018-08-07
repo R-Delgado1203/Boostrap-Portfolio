@@ -26,7 +26,7 @@ a {
 }
 
 /*header/navBar*/
-header {
+/* header {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -94,11 +94,11 @@ header {
 
 .navBar ul li+li {
 	border-left: 1px solid #cccccc;
-}
+} */
 
 
 /*main*/
-.mainContent {
+/* .mainContent {
 	width: 960px;
 	clear: both;
     margin: 0 auto 6em auto;
@@ -133,10 +133,10 @@ img.aboutPhoto {
 	padding: 0 1em 1em 0;
 	width: 200px;
 	height: 330px;
-}
+} */
 
 /*portfolio*/
-.portfolioEntry {
+/* .portfolioEntry {
 	display: inline-block;
 	position: relative;
 	width: 270px;
@@ -153,37 +153,37 @@ img.aboutPhoto {
 	padding: 1em;
 	color: #ffffff;
 	z-index: 1000;
-}
+} */
 
 /*contact*/
-.contactForm {
+/* .contactForm {
     width: 487px;
 }
 
 .contactForm label {
 	display: block;
 	padding-bottom: 0.5em;
-}
+} */
 
-.contactForm input, .contactForm textarea {
+/* .contactForm input, .contactForm textarea {
 	width: 172%;
 	border: 1px solid #cccccc;
 	margin-bottom: 1.5em;
 	padding: 1em;
     font-size: .9em;
-}
+} */
 
-.contactForm input[type="submit"] {
+/* .contactForm input[type="submit"] {
 	width: auto;
 	background-color: #4aaaa5;
 	color: #ffffff;
 	border: none;
 	padding: 1em 2em;
 	font-size: 1em;
-}
+} */
 
 /* footer */
-footer {
+/* footer {
 	position: sticky;
 	left: 0;
 	width: 95%;
@@ -193,4 +193,36 @@ footer {
 	background-color: #666666;
 	border-top: 7px solid #4aaaa5;
 	margin-top: 119px;
-}
+} */
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+	position: relative;
+	min-height: 100%;
+  }
+  body {
+	margin-bottom: 60px; /* Margin bottom by footer height */
+  }
+  .footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px; /* Set the fixed height of the footer here */
+	line-height: 60px; /* Vertically center the text there */
+	background-color: #f5f5f5;
+	text-align: center;
+	
+  }
+  
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+  .container {
+	width: auto;
+	max-width: 680px;
+	padding: 0 15px;
+  }
